@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.main-header {
+  width: 100%;
+  background: #efee1c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 5%;
+}
+
+.logo img {
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.logo:hover,
+.logo:active {
+  cursor: pointer;
+}
+
+.nav-bar {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  width: calc(100% - 120px);
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 55px;
+  border-left: 2px solid aliceblue;
+  color: #156d0b;
+}
+
+.nav-bar ul li:last-of-type {
+  border-right: 2px solid aliceblue;
+}
+
+.nav-item a:visited {
+  color: color: #156d0b;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+  color: #11490b;
+  background: #dada1a;
+}
+
+.main-section {
+  background: linear-gradient(to bottom left, rgba(14,14,14,0.5) 15%, rgba(57,57,57,0.5), transparent), url("images/pizza-bg.jpeg") center center/cover;
+  height: 700px;
+  position: relative;
+}
+
+.main-section__content h1 {
+  font-size: 68px;
+  text-align: center;
+  color: #18770d;
+  text-shadow: 3px 3px 3px rgba(0,0,0,.5);
+  position: absolute;
+  top: 25%;
+  left: 25.7%;
+}
+
+.main-section__content .highlight {
+  color: #83e613;
+}
+
+.main-section__content p {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(219, 203, 203);
+  position: absolute;
+  top: 62%;
+  left: 25%;
+}
+
+.testimonials {
+  height: 750px;
+  background: #c4c4e3;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-family: monospace, sans-serif;
+  font-size: 64px;
+  color: #18770d;
+  padding: 40px 15px 25px;
+}
+
+.testimonials__image {
+  display: inline-block;
+  width: 30%;
+}
+
+.testimonials__image img {
+  width: 100%;
+  padding: 0 10px 5px;
+}
+
+.testimonials__quote {
+  display: inline-block;
+  width: 30%;
+  list-style: none;
+  vertical-align: top;
+}
+
+.testimonials__quote p {
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 28px;
+  height: 250px;
+  padding: 0 10px;
+  margin: 0 15px;
+  border: 2px solid #1b1b1b;
+  border-top: none;
+}
+
+.location {
+  text-align: center;
+  background: #414141;
+  height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.location p {
+  padding-top: 25px;
+}
